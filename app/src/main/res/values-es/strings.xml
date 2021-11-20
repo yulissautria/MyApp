@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="text_username">Usuario</string>
+    <string name="text_username_hint">usuario@dominio.com</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_password_hint">**************</string>
+    <string name="button_login">Ingresar</string>
+    <string name="text_welcome">Bienvenido</string>
+    <string name="text_introduction">Introducción</string>
+    <string name="text_platon">Platón fue un filósofo griego seguidor de Sócrates y
+        maestro de Aristóteles. En 387 a. C. fundó la Academia de Atenas,
+        institución que continuaría a lo largo de más de novecientos años
+        y a la que Aristóteles acudiría desde Estagira a estudiar filosofía alrededor del 367 a.</string>
+    <string name="text_error">ERROR</string>
+    <string name="text_error_message">Usuario o Contraseña incorrectos</string>
+    <string name="text_action_search">Buscar</string>
+    <string name="text_action_settings">Connfiguración</string>
+    <string name="text_action_logout">Cerrar sesión</string>
+</resources>
