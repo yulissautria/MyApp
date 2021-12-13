@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/anadir_amigo"
+            android:title="Registrar Cliente" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/cuaderno"
+            android:title="Listar Clientes" />
+        <item
+            android:id="@+id/nav_new_task"
+            android:icon="@drawable/carrito_de_compras"
+            android:title="Registar Producto" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/caracteristicas"
+            android:title="Listar Producto" />
+    </group>
+</menu>
