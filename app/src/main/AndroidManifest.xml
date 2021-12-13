@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.MyApp.NoActionBar" />
+        <activity
             android:name=".ToDoActivity"
             android:exported="false" />
         <activity

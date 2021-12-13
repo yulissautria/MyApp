@@ -17,14 +17,16 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="280dp"
-            android:layout_height="280dp"
+            android:layout_width="380dp"
+            android:layout_height="380dp"
+            android:layout_margin="20dp"
             app:srcCompat="@drawable/u_de_caldas" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="280dp"
-            android:layout_height="280dp"
+            android:layout_width="380dp"
+            android:layout_height="380dp"
+            android:layout_margin="20dp"
             app:srcCompat="@drawable/misiontic" />
     </LinearLayout>
 

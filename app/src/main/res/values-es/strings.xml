@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">Heels</string>
     <string name="text_username">Usuario</string>
     <string name="text_username_hint">usuario@dominio.com</string>
     <string name="text_password">Contraseña</string>
@@ -16,4 +16,19 @@
     <string name="text_action_search">Buscar</string>
     <string name="text_action_settings">Connfiguración</string>
     <string name="text_action_logout">Cerrar sesión</string>
+
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="title_activity_drawer">Actividad del cajón</string>
+    <string name="navigation_drawer_open">Cajón de navegación abierto</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Diapositivas</string>
+
+
 </resources>

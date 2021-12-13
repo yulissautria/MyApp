@@ -13,11 +13,11 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
        /* setSupportActionBar(findViewById(R.id.my_toolbar)) */
         txvUsername = findViewById(R.id.txvUsername)
-        txvUsername.setText(intent.getStringExtra("username"))
+        txvUsername.setText(intent.getStringExtra("usuario"))
 
         val fab: View = findViewById(R.id.fab)
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Element added", Snackbar.LENGTH_LONG). show()
+            Snackbar.make(view, "Elemento añadido", Snackbar.LENGTH_LONG). show()
 
         }
     }

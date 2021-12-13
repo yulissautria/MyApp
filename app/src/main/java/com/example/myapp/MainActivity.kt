@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(findViewById(R.id.my_toolbar))
+        //setSupportActionBar(findViewById(R.id.my_toolbar))
         edtUsername = findViewById(R.id.edtUsername)
         edtPassword = findViewById(R.id.edtPassword)
     }
@@ -30,7 +30,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_search -> {
-                Toast.makeText(this, R.string.text_action_search, Toast.LENGTH_LONG).show()
+                val intento = Intent (this, DrawerActivity::class.java)
+                startActivity(intento)
                 return true
             }
 
@@ -61,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                 .setTitle("Welcome")
                 .setMessage("User: " + edtUsername.text.toString())
                 .setPositiveButton("OK" , positiveButton)
-                .setNegativeButton("Cancel", negativeButton)
+                .setNegativeButton("Cancelar", negativeButton)
                 .create()
                 .show()
 
